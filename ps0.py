@@ -101,11 +101,9 @@ def add_less_than(number):
 def factorial_finder(number):
     counter = number
 
-    final = 0
+    final = 1
     
     while counter > 0:
-        
-        final = 1
         
         final = final * number
         number = number - 1
