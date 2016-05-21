@@ -23,12 +23,15 @@ def digit_counter(number):
     answer = 0
     
     while True:
+        
+        if number == 0:
+            return 1
     
         if number >= 10**counter and number < 10**counter2:
             answer = answer + 1
             return answer
             
-        elif number > 10**counter2:
+        elif number >= 10**counter2:
             counter = counter + 1
             counter2 = counter2 + 1
             answer = answer + 1
@@ -72,8 +75,13 @@ def digit_add(number):
 def add_less_than(number):
     
     sum = 0
-    counter = 1
     numero = 1
+    
+    if number == 0:
+        counter = 0
+        
+    else:
+        counter = 1
     
     while numero > 0:
         numero = (number - counter)
