@@ -48,9 +48,9 @@ import ps0
 #print("The answer to whether the number 7 is perfect is {}".format(ps0.is_perfect(7)))
 #print("The answer to whether the number 0 is perfect is {}".format(ps0.is_perfect(0)))
 #
-print("The answer to whether the digits of 46, when added together, divides evenly into it, is {}".format(ps0.digit_add_divisor(46)))
-print("The answer to whether the digits of 45, when added together, divides evenly into it, is {}".format(ps0.digit_add_divisor(45)))
-print("The answer to whether the digits of 3, when added together, divides evenly into it, is {}".format(ps0.digit_add_divisor(3)))
+#print("The answer to whether the digits of 46, when added together, divides evenly into it, is {}".format(ps0.digit_add_divisor(46)))
+#print("The answer to whether the digits of 45, when added together, divides evenly into it, is {}".format(ps0.digit_add_divisor(45)))
+#print("The answer to whether the digits of 3, when added together, divides evenly into it, is {}".format(ps0.digit_add_divisor(3)))
 
 
 
